@@ -7,11 +7,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
 
 }
 body{
-    background: #1A1A1A;
+    background: #0E1212;
     color: #dbdbdb;
 }
 html{
@@ -20,12 +20,14 @@ html{
 #header{
     width: 100%;
     height: 100vh;
-    background-color:#1A1A1A ;
+    background-color:#0E1212 ;
 
   
 }
 .container{
     padding: 10px 10%;
+   
+
 }
 nav{
 
@@ -34,6 +36,11 @@ nav{
     justify-content: space-between;
     flex-wrap: wrap;
     
+    
+}
+
+.logo{
+    width: 80px;
 }
 nav i{
     width: 140px;
@@ -46,10 +53,11 @@ nav ul li {
     transition: color 0.4s cubic-bezier(0.4, 0, 1, 1);
 
 }
-nav ul li a{
+nav ul li a:not(.toplogo){
     color: #dbdbdb;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 30px;
+    font-weight: 700 ;
     position: relative;
     transition: color 0.4s cubic-bezier(0.4, 0, 1, 1);
 
@@ -63,7 +71,8 @@ nav ul li  :hover{
 
 .header-text{
     font-size: 30px;
-    margin-top:20%;
+    margin-top:300px;
+
 
 }
 .header-text h1{
@@ -74,6 +83,61 @@ nav ul li  :hover{
 .header-text h1 span{
     color: #0B94A7;
 }
+
+#button-proj {
+  margin-left: 0px;
+  margin-top: 30px;
+  } 
+  
+  .btntop {
+    background: #5e5df0;
+    border-radius: 999px;
+    box-shadow: #5e5df0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+  
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+  
+    touch-action: manipulation;
+    width: 200px;
+    height: fit-content;
+    text-align: center;
+    border: 0;
+    text-decoration: none;
+    
+  }
+  
+  .btntop:hover {
+    background: #fff;
+    border-radius: 999px;
+    box-shadow: #ffffff 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #5e5df0;
+    cursor: pointer;
+  
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    border: 1px black solid;
+    touch-action: manipulation;
+    width: 200px;
+    height: fit-content;
+    text-align: center;
+    border: 0;
+    text-decoration: none;
+  }
+  
 
 /* .logo {
     margin-top: 13px;
@@ -86,7 +150,7 @@ nav ul li  :hover{
 #about{
     padding: 80px 0;
    color: #dbdbdb;
-   background: #1A1A1A;
+   background: #0E1212;
    background-position: center;
    background-size: cover;
 }
@@ -153,13 +217,13 @@ nav ul li  :hover{
 
 
 /*----------------start portfolio section -------------*/
-#portfolio{
+#projects{
     padding: 50px 0;
 }
-#portfolio .container{
+#projects .container{
     text-align: center;
 }
-#portfolio .container p{
+#projects .container p{
     margin-top: 15px;
 }
 .work-list{
@@ -242,7 +306,7 @@ nav ul li  :hover{
 
 /*---------------- Start Contact section -------------*/
 #contact{
-    background: #1A1A1A;
+    background: #0E1212;
     padding-top: 50px;
 }
 .contact-left{
@@ -352,7 +416,7 @@ nav .fa-solid{
     nav ul .fa-solid{
         position: absolute;
         top: 25px;
-        left: 25px;
+        left: 30px;
         cursor: pointer;
     }
     .sub-title{
