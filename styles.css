@@ -165,7 +165,6 @@ nav ul li  :hover{
     z-index: -1;
   } */
 
-/*---------start about section-------*/
 #about{
     padding: 80px 0;
    color: #dbdbdb;
@@ -195,10 +194,6 @@ nav ul li  :hover{
 }
 
 
-/*----------------End About section -------------*/
-
-
-/*----------------start projects section -------------*/
 #projects{
     padding: 50px 0;
 }
@@ -285,10 +280,7 @@ nav ul li  :hover{
 .projects-header , .projects-footer{
     margin: 100px 0px 60px 60px;
 }
-/*----------------end projects section -------------*/
 
-
-/*---------------- Start Contact section -------------*/
 #contact{
     background: #0E1212;
     padding-top: 50px;
@@ -370,7 +362,7 @@ form .btn2{
 }
 
 
-/*---------------- End Contact section -------------*/
+
 
 nav .fa-solid{
     display: none;
