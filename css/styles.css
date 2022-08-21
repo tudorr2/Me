@@ -369,7 +369,7 @@ form .btn2{
 nav .fa-solid{
     display: none;
 }
-@media Only Screen and (max-width:600px){
+@media Only Screen and (max-width:768px){
     .header-text{
         margin-top: 50%;
         font-size: 16px;
@@ -379,14 +379,16 @@ nav .fa-solid{
     }
     nav .fa-solid{
         display: block;
-        font-size: 25px;
+        font-size: 30px;
+        display : flex;
+        justify-content: flex-end;
     }
     nav ul{
-        background: #0B94A7;
+        background: #151718;
         position: fixed;
         top: 0;
         right: -200px;
-        width: 200px;
+        width: 180px;
         height: 100vh;
         padding-top: 50px;
         z-index: 2;
@@ -394,7 +396,7 @@ nav .fa-solid{
     }
     nav ul li{
         display: block;
-        margin: 25px;
+        margin: 20px;
 
     }
     nav ul .fa-solid{
