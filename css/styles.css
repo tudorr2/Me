@@ -76,7 +76,7 @@ nav ul li  :hover{
 
 .header-text{
     font-size: 30px;
-    margin-top:200px;
+    margin-top:110px;
    
 
 
@@ -168,7 +168,7 @@ nav ul li  :hover{
   } */
 
 #about{
-    padding: 80px 0;
+    padding: 0px 0;
    color: #dbdbdb;
    background: #0E1212;
    background-position: center;
@@ -372,7 +372,7 @@ nav .fa-solid{
 }
 @media Only Screen and (max-width:768px){
     .header-text{
-        margin-top: 50%;
+        margin-top: 10%;
         font-size: 16px;
     }
     .header-text h1:not(.code){
@@ -441,6 +441,14 @@ nav .fa-solid{
 
 
 
+
+}
+
+@media Only Screen and (min-width:700px) and (max-width:1024){
+    .header-text{
+        margin-top: 50%;
+        font-size: 16px;
+    }
 
 }
 /* scrollbar  */
