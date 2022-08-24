@@ -3,7 +3,7 @@
 
 @font-face {
     font-family: "La Belle Aurore";
-    src: url(/la_belle_aurore/La\ Belle\ Aurore.ttf);
+    src: url(../../la_belle_aurore/La\ Belle\ Aurore.ttf);
   }
 
 *{
@@ -40,7 +40,7 @@ nav{
     justify-content: space-between;
     flex-wrap: wrap;
     
-    
+     
 }
 
 .logo{
@@ -55,7 +55,7 @@ nav ul li {
     list-style: none;
     margin: 10px 20px;
     transition: color 0.4s cubic-bezier(0.4, 0, 1, 1);
-
+    
 }
 nav ul li a{
     color: #dbdbdb;
@@ -64,6 +64,7 @@ nav ul li a{
     font-weight: 700 ;
     position: relative;
     transition: color 0.4s cubic-bezier(0.4, 0, 1, 1);
+
 
 }
 nav ul li  :hover{
