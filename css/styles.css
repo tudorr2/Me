@@ -398,6 +398,9 @@ nav .fa-solid {
     font-size: 14px;
   }
 
+  .contact-left a:link{
+    color:#dbdbdb
+  }
   .contact-left,
   .contact-right {
     flex-basis: 100%;
