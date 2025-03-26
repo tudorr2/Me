@@ -1,3 +1,3 @@
 # Personal Portfolio
 
-**[Website:](https://tudorr2.github.io/Me/)**
+**<a href="https://tudorr2.github.io/Me/" style="color: white;">https://tudorr2.github.io/Me/</a>**
